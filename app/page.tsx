@@ -1,13 +1,12 @@
 "use client"
 
 import type React from "react"
-import Image from "next/image"
-
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card } from "@/components/ui/card"
+import { ImageSkeleton } from "@/components/ui/image-skeleton"
 import { TrendingUp, Shield, Zap, Star, MessageCircle, Send } from "lucide-react"
 
 export default function LandingPage() {
@@ -69,13 +68,12 @@ export default function LandingPage() {
 
             {/* Hero Image */}
             <div className="mb-10 overflow-hidden rounded-2xl border bg-muted/50">
-              <Image 
+              <ImageSkeleton 
                 src="/hero-audience.png" 
                 alt="Sports betting excitement" 
                 width={1200}
                 height={800}
-                className="h-auto w-full transition-opacity duration-300" 
-                placeholder="blur"
+                className="h-auto w-full" 
                 blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
               />
             </div>
@@ -143,13 +141,12 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="mb-4 overflow-hidden rounded-lg border bg-muted/50">
-                <Image 
+                <ImageSkeleton 
                   src="/person-signing-up-on-mobile-device.jpg" 
                   alt="Sign up" 
                   width={600}
                   height={400}
-                  className="h-auto w-full transition-opacity duration-300" 
-                  placeholder="blur"
+                  className="h-auto w-full" 
                   blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                 />
               </div>
@@ -168,13 +165,12 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="mb-4 overflow-hidden rounded-lg border bg-muted/50">
-                <Image 
+                <ImageSkeleton 
                   src="/receiving-expert-betting-tips-notification.jpg" 
                   alt="Get tips" 
                   width={600}
                   height={400}
-                  className="h-auto w-full transition-opacity duration-300" 
-                  placeholder="blur"
+                  className="h-auto w-full" 
                   blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                 />
               </div>
@@ -192,13 +188,12 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="mb-4 overflow-hidden rounded-lg border bg-muted/50">
-                <Image 
+                <ImageSkeleton 
                   src="/placing-sports-bet-with-confidence.jpg" 
                   alt="Place bets" 
                   width={600}
                   height={400}
-                  className="h-auto w-full transition-opacity duration-300" 
-                  placeholder="blur"
+                  className="h-auto w-full" 
                   blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                 />
               </div>
