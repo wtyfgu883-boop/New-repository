@@ -1,6 +1,7 @@
 "use client"
 
 import type React from "react"
+import Image from "next/image"
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
@@ -68,12 +69,14 @@ export default function LandingPage() {
 
             {/* Hero Image */}
             <div className="mb-10 overflow-hidden rounded-2xl border bg-muted/50">
-              <img 
+              <Image 
                 src="/hero-audience.png" 
                 alt="Sports betting excitement" 
-                className="h-auto w-full" 
-                loading="lazy"
-                decoding="async"
+                width={1200}
+                height={800}
+                className="h-auto w-full transition-opacity duration-300" 
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
               />
             </div>
 
@@ -140,12 +143,14 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="mb-4 overflow-hidden rounded-lg border bg-muted/50">
-                <img 
+                <Image 
                   src="/person-signing-up-on-mobile-device.jpg" 
                   alt="Sign up" 
-                  className="h-auto w-full" 
-                  loading="lazy"
-                  decoding="async"
+                  width={600}
+                  height={400}
+                  className="h-auto w-full transition-opacity duration-300" 
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                 />
               </div>
               <h3 className="mb-2 text-xl font-semibold">Download Our App</h3>
@@ -163,12 +168,14 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="mb-4 overflow-hidden rounded-lg border bg-muted/50">
-                <img 
+                <Image 
                   src="/receiving-expert-betting-tips-notification.jpg" 
                   alt="Get tips" 
-                  className="h-auto w-full" 
-                  loading="lazy"
-                  decoding="async"
+                  width={600}
+                  height={400}
+                  className="h-auto w-full transition-opacity duration-300" 
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                 />
               </div>
               <h3 className="mb-2 text-xl font-semibold">Get Smart Insights</h3>
@@ -185,12 +192,14 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="mb-4 overflow-hidden rounded-lg border bg-muted/50">
-                <img 
+                <Image 
                   src="/placing-sports-bet-with-confidence.jpg" 
                   alt="Place bets" 
-                  className="h-auto w-full" 
-                  loading="lazy"
-                  decoding="async"
+                  width={600}
+                  height={400}
+                  className="h-auto w-full transition-opacity duration-300" 
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                 />
               </div>
               <h3 className="mb-2 text-xl font-semibold">Win Big, Bet Easy</h3>
