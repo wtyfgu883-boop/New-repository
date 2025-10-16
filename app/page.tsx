@@ -68,7 +68,13 @@ export default function LandingPage() {
 
             {/* Hero Image */}
             <div className="mb-10 overflow-hidden rounded-2xl border bg-muted/50">
-              <img src="/hero-audience.png" alt="Sports betting excitement" className="h-auto w-full" />
+              <img 
+                src="/hero-audience.png" 
+                alt="Sports betting excitement" 
+                className="h-auto w-full" 
+                loading="lazy"
+                decoding="async"
+              />
             </div>
 
             <Button
@@ -134,7 +140,13 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="mb-4 overflow-hidden rounded-lg border bg-muted/50">
-                <img src="/person-signing-up-on-mobile-device.jpg" alt="Sign up" className="h-auto w-full" />
+                <img 
+                  src="/person-signing-up-on-mobile-device.jpg" 
+                  alt="Sign up" 
+                  className="h-auto w-full" 
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <h3 className="mb-2 text-xl font-semibold">Download Our App</h3>
               <p className="text-muted-foreground">
@@ -151,7 +163,13 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="mb-4 overflow-hidden rounded-lg border bg-muted/50">
-                <img src="/receiving-expert-betting-tips-notification.jpg" alt="Get tips" className="h-auto w-full" />
+                <img 
+                  src="/receiving-expert-betting-tips-notification.jpg" 
+                  alt="Get tips" 
+                  className="h-auto w-full" 
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <h3 className="mb-2 text-xl font-semibold">Get Smart Insights</h3>
               <p className="text-muted-foreground">
@@ -167,7 +185,13 @@ export default function LandingPage() {
                 </div>
               </div>
               <div className="mb-4 overflow-hidden rounded-lg border bg-muted/50">
-                <img src="/placing-sports-bet-with-confidence.jpg" alt="Place bets" className="h-auto w-full" />
+                <img 
+                  src="/placing-sports-bet-with-confidence.jpg" 
+                  alt="Place bets" 
+                  className="h-auto w-full" 
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <h3 className="mb-2 text-xl font-semibold">Win Big, Bet Easy</h3>
               <p className="text-muted-foreground">
