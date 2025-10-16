@@ -331,6 +331,20 @@ export default function LandingPage() {
               </div>
             </Card>
           </div>
+          
+          {/* CTA Button after testimonials */}
+          <div className="mt-12 text-center">
+            <Button
+              size="lg"
+              className="h-12 px-8 text-base"
+              onClick={() => setShowPopup(true)}
+            >
+              Join Winners Today
+            </Button>
+            <p className="mt-4 text-sm text-muted-foreground">
+              Start your winning journey with expert tips and exclusive bonuses
+            </p>
+          </div>
         </div>
       </section>
 
